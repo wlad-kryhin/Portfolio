@@ -170,7 +170,7 @@ body {
   height: 100%;
 }
 
-.mobile-menu-container  {
+.mobile-menu-container {
   height: 70%;
   justify-content: space-between;
   margin: 0;
@@ -185,7 +185,7 @@ body {
   cursor: pointer;
 }
 
-.body-scroll-disable  {
+.body-scroll-disable {
   overflow: hidden;
 }
 
@@ -202,7 +202,7 @@ body {
   flex-direction: column;
 }
 
-.mobile-menu-item  {
+.mobile-menu-item {
   font-weight: bold;
   font-size: 15px;
   line-height: 18px;
@@ -218,7 +218,6 @@ body {
 .mobile-menu-item:hover {
   color: var(--txt-c-accent);
 }
-
 
 .mobile-menu-my-tel {
   font-weight: bold;
@@ -330,7 +329,7 @@ body {
   height: 85%;
 }
 
-.project-modal-scrollable  {
+.project-modal-scrollable {
   overflow-y: auto;
   height: 100%;
   padding: 0 25px;
@@ -357,8 +356,7 @@ body {
 .project-modal-img {
   width: 100%;
   margin-bottom: 30px;
-}   
-
+}
 
 /* FRONT PAGE */
 
@@ -737,7 +735,6 @@ body {
   margin-bottom: 30px;
 }
 
-
 .team-project-item:last-child {
   margin-bottom: 0;
 }
@@ -941,7 +938,7 @@ body {
   margin-bottom: 15px;
 }
 
-.footer-my-mail { 
+.footer-my-mail {
   font-size: 17px;
   line-height: 150%;
   text-align: center;
@@ -952,7 +949,6 @@ body {
 
 .social-links-item {
   font-size: 25px;
-
 }
 
 .social-links-item-link {
@@ -961,13 +957,11 @@ body {
   color: var(--c-dark);
 }
 
-.social-links-item-link:last-child  {
+.social-links-item-link:last-child {
   margin-right: 0;
 }
 
-
 /* MULTI SELECT */
-
 
 .calculator-form-input .tech-input-container .choices__item {
   background: var(--c-accent);
@@ -989,7 +983,7 @@ body {
   font-weight: 900;
 }
 
-.calculator-form-input .tech-input-container  {
+.calculator-form-input .tech-input-container {
   background: transparent;
   border-radius: 0;
   border: none;
@@ -1126,7 +1120,7 @@ body {
   }
 
   .team-projects-title,
-  .personal-projects-title  {
+  .personal-projects-title {
     text-align: left;
     width: 400px;
     font-size: 50px;
@@ -1154,7 +1148,7 @@ body {
     padding: 75px 30px 80px 30px;
   }
 
-  .callback-form-title  {
+  .callback-form-title {
     font-size: 36px;
     line-height: 43px;
     width: 386px;
@@ -1180,7 +1174,7 @@ body {
     align-items: flex-start;
   }
 
-  .calculator-title  {
+  .calculator-title {
     width: 605px;
     font-size: 50px;
     line-height: 60px;
@@ -1238,7 +1232,6 @@ body {
   .footer-my-mail {
     margin-bottom: 0;
   }
-
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1246,11 +1239,11 @@ body {
     max-width: var(--desktop-lg);
   }
   .tablet-element {
-    display: none  !important;
+    display: none !important;
   }
 
   .desktop-element {
-    display: block  !important;
+    display: block !important;
   }
 
   .front-page-my-info {
@@ -1274,12 +1267,12 @@ body {
   }
 
   .experience-wrapper {
-    order:1;
+    order: 1;
   }
 
   .front-page-main-info {
     align-items: flex-start;
-    order:2;
+    order: 2;
     z-index: 2;
     position: relative;
   }
@@ -1305,7 +1298,7 @@ body {
     margin-bottom: 90px;
   }
   .profession-part-2 {
-      margin-left: 60px;
+    margin-left: 60px;
   }
 
   .front-page-wrapper {
@@ -1323,7 +1316,7 @@ body {
     z-index: 1;
   }
   .front-page-my-info {
-    order:3;
+    order: 3;
   }
 
   .front-page-my-decr {
@@ -1349,7 +1342,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .team-project-item, 
+  .team-project-item,
   .personal-project-item {
     width: calc(50% - 20px);
   }
@@ -1364,7 +1357,7 @@ body {
     margin: 0 0 40px 20px;
   }
 
-  .team-projects-title, 
+  .team-projects-title,
   .personal-projects-title {
     font-size: 70px;
     line-height: 84px;
@@ -1391,7 +1384,6 @@ body {
     width: 388px;
     margin: 0;
   }
-
 
   .about-content-wrapper {
     position: relative;
@@ -1448,7 +1440,7 @@ body {
     z-index: 1;
   }
 
-  .about-img{
+  .about-img {
     width: 421px;
     height: 455px;
     left: -35px;

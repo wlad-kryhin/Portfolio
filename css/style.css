@@ -81,7 +81,7 @@ body {
 /* COMMON */
 
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
@@ -420,7 +420,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -904,14 +904,13 @@ body {
   color: var(--txt-c-dark);
   margin: 0;
 }
-
 /* FOOTER SECTION */
 
 .footer-my-name {
   font-weight: bold;
   font-size: 17px;
   line-height: 150%;
-  color: var(--txt-c-dark);
+  color: var(--txt-c-light);
   margin: 0;
   text-align: center;
 }
@@ -922,6 +921,7 @@ body {
 }
 
 .footer-my-profession {
+  color: var(--txt-c-grey);
   font-size: 17px;
   line-height: 150%;
   text-align: center;
@@ -934,7 +934,7 @@ body {
   line-height: 150%;
   text-align: center;
   text-decoration: none;
-  color: var(--txt-c-dark);
+  color: var(--txt-c-light);
   margin-bottom: 15px;
 }
 
@@ -942,7 +942,7 @@ body {
   font-size: 17px;
   line-height: 150%;
   text-align: center;
-  color: var(--txt-c-dark);
+  color: var(--txt-c-light);
   text-decoration: none;
   margin-bottom: 30px;
 }
@@ -954,11 +954,14 @@ body {
 .social-links-item-link {
   margin-right: 35px;
   text-decoration: none;
-  color: var(--c-dark);
+  color: var(--txt-c-light);
 }
 
 .social-links-item-link:last-child {
   margin-right: 0;
+}
+.footer {
+  background: var(--c-dark);
 }
 
 /* MULTI SELECT */
@@ -1516,7 +1519,9 @@ body {
   .calculator-icon {
     top: 360px;
   }
-
+  .footer {
+    background: var(--c-dark);
+  }
   .footer .container {
     flex-direction: row;
     justify-content: space-between;

@@ -573,6 +573,30 @@
               More details —
             </button>
           </div>
+          <div class="personal-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="./img/movies11.png"
+                alt="Moview"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="personal-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              <span>Technology: HTML, CSS, React.js, Rest API</span>
+            </p>
+            <button
+              class="personal-project-btn accent-btn"
+              id="personal-project-goit-btn"
+            >
+              More details —
+            </button>
+          </div>
 
           <div class="personal-project-item">
             <div class="personal-project-item-container">
@@ -619,31 +643,6 @@
             <button
               class="personal-project-btn accent-btn"
               id="personal-project-pro-test-btn"
-            >
-              More details —
-            </button>
-          </div>
-
-          <div class="personal-project-item">
-            <div class="personal-project-item-container">
-              <div class="projet-item-dot-container">
-                <div class="projet-item-dot"></div>
-                <div class="projet-item-dot"></div>
-                <div class="projet-item-dot"></div>
-              </div>
-              <img
-                src="img/goit.jpg"
-                alt="Moview"
-                class="personal-project-img"
-              />
-            </div>
-            <p class="personal-project-name">
-              <i class="fas fa-laptop-code personal-project-icon"></i>
-              <span>Technology: HTML, CSS, React.js, Rest API</span>
-            </p>
-            <button
-              class="personal-project-btn accent-btn"
-              id="personal-project-goit-btn"
             >
               More details —
             </button>
@@ -933,8 +932,13 @@ Here is a list of links to my social networks and my phone number.
           </div>
 
           <div class="footer-contacts">
-            <a href="tel:+48055050505" class="footer-my-tel">+48 731 195 845</a>
-            <a href="mailto:alexturdev@gmail.com" class="footer-my-mail"
+            <a target="_blank" href="tel:+48055050505" class="footer-my-tel"
+              >+48 731 195 845</a
+            >
+            <a
+              target="_blank"
+              href="mailto:alexturdev@gmail.com"
+              class="footer-my-mail"
               >wladkrychin@gmail.com</a
             >
           </div>
@@ -942,24 +946,28 @@ Here is a list of links to my social networks and my phone number.
 
         <div class="social-links">
           <a
+            target="_blank"
             href="https://github.com/wlad-kryhin"
             class="social-links-item-link"
           >
             <i class="fab fa-github social-links-item"></i>
           </a>
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/vladyslav-kryhin-01ba51216/"
             class="social-links-item-link"
           >
             <i class="fab fa-linkedin social-links-item"></i>
           </a>
           <a
+            target="_blank"
             href="https://www.facebook.com/vladyslad.kryhin/"
             class="social-links-item-link"
           >
             <i class="fab fa-facebook-square social-links-item"></i>
           </a>
           <a
+            target="_blank"
             href="https://www.instagram.com/vlad.kr1/"
             class="social-links-item-link"
           >
@@ -985,10 +993,16 @@ Here is a list of links to my social networks and my phone number.
             </nav>
 
             <div class="mobile-menu-contacts">
-              <a href="tel:+48050505050" class="mobile-menu-my-tel"
+              <a
+                target="_blank"
+                href="tel:+48050505050"
+                class="mobile-menu-my-tel"
                 >+48 731 195 845
               </a>
-              <a href="mailto:alexturdev@gmail.com" class="mobile-menu-my-mail"
+              <a
+                target="_blank"
+                href="mailto:alexturdev@gmail.com"
+                class="mobile-menu-my-mail"
                 >wladkrychin@gmail.com</a
               >
             </div>
@@ -1074,6 +1088,7 @@ Here is a list of links to my social networks and my phone number.
             </div>
 
             <a
+              target="_blank"
               href="https://phonebook-react-project.netlify.app/"
               class="project-modal-title"
               >Phone book</a
@@ -1134,6 +1149,7 @@ Here is a list of links to my social networks and my phone number.
             </div>
 
             <a
+              target="_blank"
               href="https://wlad-kryhin.github.io/goit-js-hw-13-image-finder/"
               class="project-modal-title"
               >Image finder</a
@@ -1199,6 +1215,7 @@ Here is a list of links to my social networks and my phone number.
             </div>
 
             <a
+              target="_blank"
               href="https://wlad-kryhin.github.io/goit-markup-hw-08/"
               class="project-modal-title"
               >Web studio</a
@@ -1219,36 +1236,59 @@ Here is a list of links to my social networks and my phone number.
       >
         <div class="project-modal-container modal-area-content">
           <i class="fas fa-times modal-close-btn"></i>
-
           <div class="project-modal-scrollable">
-            <img
-              class="project-modal-img"
-              src="img/goit.jpg"
-              alt="goit project image 1"
-            />
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <img
+                  class="swiper-slide"
+                  src="./img/movies11.png"
+                  alt="project image 1"
+                />
+                <img
+                  src="./img/movies2.png"
+                  class="swiper-slide"
+                  alt="project image 2"
+                />
+                <img
+                  src="./img/movies3.png"
+                  class="swiper-slide"
+                  alt="project image 3"
+                />
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
 
-            <a href="https://goit.ua/" class="project-modal-title"
-              >GoIT - курсы программирования</a
+              <!-- If we need navigation buttons -->
+              <div
+                class="swiper-button-prev tablet-element desktop-element"
+              ></div>
+              <div
+                class="swiper-button-next tablet-element desktop-element"
+              ></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+
+            <a
+              target="_blank"
+              href="https://movies-application-react.netlify.app/"
+              class="project-modal-title"
+              >Movies finder</a
             >
 
             <p class="project-modal-text">
-              Многостраничный сайт с использованием HTML, CSS и JavaScript. На
-              сайте есть форма обратной связи и pop-up, который появляется через
-              30 секунд вашего присутствия на сайте.
+              A modern application for the search for films and information
+              about it, on the main page we see trending films for today. They
+              are updated every day.
             </p>
 
             <p class="project-modal-text">
-              Также на сайте есть отдельная страница курсов, с последующим
-              переходом на лендинг каждого отдельного курса. Постоянная рубрика
-              Journal сделана в виде блога с полезной информацией для начинающих
-              разработчиков.
-            </p>
-
-            <p class="project-modal-text">
-              На сайте есть отзывы выпускников, контакты для связи и события
-              компании. Кнопка в правом углу переводит пользователя в
-              телеграм-бот, где он может создать свой собственный сайт с
-              автопроверкой заданий.
+              Technologies that were applied in this project : HTML, CSS, SCSS,
+              React, Rest API, Adaptive design.
             </p>
           </div>
         </div>
@@ -1304,6 +1344,7 @@ Here is a list of links to my social networks and my phone number.
             </div>
 
             <a
+              target="_blank"
               href="https://wlad-kryhin.github.io/project-JS-NightCoders/"
               class="project-modal-title"
               >Filmoteka</a
@@ -1367,6 +1408,7 @@ Here is a list of links to my social networks and my phone number.
             </div>
 
             <a
+              target="_blank"
               href="https://wlad-kryhin.github.io/parcel-project-template/"
               class="project-modal-title"
               >Ice Cream Landing Page

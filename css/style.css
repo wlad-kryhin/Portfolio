@@ -339,13 +339,16 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  color: var(--txt-c-dark);
+  color: var(--txt-c-blue);
   text-transform: uppercase;
   text-decoration: none;
   margin: 0 0 25px 0;
   display: block;
 }
-
+.project-modal-title:hover,
+.project-modal-title:focus {
+  color: var(--txt-c-accent);
+}
 .project-modal-text {
   font-size: 16px;
   line-height: 145%;
